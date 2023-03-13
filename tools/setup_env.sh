@@ -31,10 +31,6 @@ function is_ubuntu {
     _is_distro "Ubuntu"
 }
 
-function is_debian {
-    _is_distro "Debian"
-}
-
 function is_centos {
     _is_distro "CentOS"
 }
@@ -66,6 +62,7 @@ function prep_work {
         fi
         apt-get update
         apt install -y git python-pip
+        
     else
         echo "Unsupported Distro: $DISTRO" 1>&2
         exit 1

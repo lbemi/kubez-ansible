@@ -143,10 +143,10 @@ class KubeWorker(object):
             if isinstance(module_extra_vars, dict):
                 if self.is_bootstrap:
                     module_extra_vars = ' '.join('--{}={}'.format(key, value)  # noqa
-                                        for key, value in module_extra_vars.items() if value)  # noqa
+                                        for key, value in list(module_extra_vars.items()) if value)  # noqa
                 if self.is_node_add:
                     extra_cmd = ''
-                    for key, value in module_extra_vars.items():
+                    for key, value in list(module_extra_vars.items()):
                         if key == 'discovery-token-ca-cert-hash':
                             extra_cmd += ' '.join(
                                 ['--' + key, 'sha256:' + value])

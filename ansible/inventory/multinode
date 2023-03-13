@@ -9,14 +9,17 @@
 
 # These hostname must be resolvable from your deployment host
 [docker-master]
-kube01
-kube02
+k8s-master1
+k8s-master2
+k8s-master3
 
 # The above can also be specified as follows:
 #kube[01:02]
 
 [docker-node]
-kube03
+k8s-node10
+k8s-node11
+k8s-node12
 
 [containerd-master]
 

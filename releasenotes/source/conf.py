@@ -45,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Kubez-ansible Release Notes'
-copyright = u'2015, Kubez-ansible developers'
+project = 'Kubez-ansible Release Notes'
+copyright = '2015, Kubez-ansible developers'
 
 # Release notes do not need a version number in the title, they
 # cover multiple releases.
@@ -186,8 +186,8 @@ htmlhelp_basename = 'Kubez-ansibleReleaseNotesdoc'
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('index', 'Kubez-ansibleReleaseNotes.tex',
-     u'Kubez-ansible Release Notes Documentation',
-     u'Kubez-ansible developers', 'manual'),
+     'Kubez-ansible Release Notes Documentation',
+     'Kubez-ansible developers', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -217,8 +217,8 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'kubez-ansiblereleasenotes',
-     u'Kubez-ansible Release Notes Documentation',
-     [u'kubez-ansible developers'], 1)
+     'Kubez-ansible Release Notes Documentation',
+     ['kubez-ansible developers'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -232,8 +232,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'Kubez-ansibleReleaseNotes',
-     u'Kubez-ansible Release Notes Documentation',
-     u'Kubez-ansible developers', 'Kubez-ansibleReleaseNotes',
+     'Kubez-ansible Release Notes Documentation',
+     'Kubez-ansible developers', 'Kubez-ansibleReleaseNotes',
      'One line description of project.', 'Miscellaneous'),
 ]
 
